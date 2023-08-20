@@ -5,7 +5,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "download": "npx apollo client:download-schema --endpoint https://api.studio.thegraph.com/query/50512/nft-marketplace/v0.0.1 schema.graphql"
   },
   "dependencies": {
     "@apollo/client": "3.5.9",

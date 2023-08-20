@@ -6,7 +6,6 @@ import useSigner from "state/signer";
 const OwnedPage = () => {
   const { signer } = useSigner();
   const { ownedNFTs, ownedListedNFTs } = useNFTMarket();
-  console.log(ownedListedNFTs);
 
   const notConnected = !signer;
   const loading = signer && !ownedNFTs && !ownedListedNFTs;

@@ -48,4 +48,4 @@ artifacts/@openzeppelin
 artifacts/build-info
 dist
 
-.env.*
+.env
